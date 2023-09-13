@@ -1,10 +1,10 @@
 
-
+import './MessageBox.css';
 export const MessageBox = () => {
   return (
-    <div className="container">
-      <h1>message box</h1>
-
+    <div id="message-box">
+      <input id="message-input" type="text" />
+      <button>Send</button>
     </div>
   );
 }
